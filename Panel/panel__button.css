@@ -1,0 +1,32 @@
+.button__icon{
+    display:grid;
+    grid-template-columns:10px 10px;
+    grid-template-rows: 10px 10px;
+    grid-column-gap: 4px;
+    grid-row-gap: 4px;
+}
+
+.icon__circle{
+    height: 8px;
+    width:8px;
+    border-radius: 50%;
+    border: 1.5px solid #302F2D;
+}
+.panel__button{
+    border:none;
+    background: none;
+    font-weight: 400;
+font-size: 17px;
+line-height: 20px;
+color: #302F2D;
+margin-left:30px;
+}
+.panel__button:hover{
+    color: #d95536; 
+}
+.button__wrap{
+    display:flex;
+    align-items: center;
+    height:24px;
+    margin: 60px 0px 0px 50px;
+}

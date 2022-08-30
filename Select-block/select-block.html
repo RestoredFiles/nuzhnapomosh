@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/select-block.css">
+  
+</head>
+<body>
+<div class="select-block">
+<div class="header select__header text">Информация о сборе</div>
+<label for="input" class=" label input__label subtext">Название сбора</label>
+<input class="input select__input" type="text" name="name" id="input">
+<div class="header select__header text">Целевые группы</div>
+<div class="sub select__sub subtext">Укажите кому помогает ваша организация</div>
+<div class="menu-popup select-popup disabled"></div>
+<div class="button__wrapper">
+<button id="create" class="choose__button">+</button>
+<label for="create" class= "button__label subtext">Выбрать</label>
+</div>
+
+
+<button class="button select__submit">Сохранить и Продолжить</button>
+</div>
+<script src="/select-block.js"></script>
+</body>
+</html>

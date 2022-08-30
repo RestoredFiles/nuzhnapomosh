@@ -1,0 +1,40 @@
+@import url(/Header/logo.css);
+@import url(/Header/header__logo.css);
+@import url(/Header/page-header.css);
+@import url(/Header/user.css);
+@import url(/Header/header__user.css);
+@import url(/Panel/panel.css);
+@import url(/Panel/page__panel.css);
+@import url(/Panel/panel__button.css);
+@import url(/Select-block/select-block.css);
+@font-face {
+    font-family: 'Futura PT Book';
+    src: url('/fonts/futurabook.woff2');
+
+    font-weight: normal;
+    font-style: normal;
+    }
+
+
+    *, *:before, *:after {
+
+        margin: 0;
+      padding: 0;
+      word-wrap: break-word;
+      flex-wrap: nowrap;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+    font-family: "Futura PT Book";
+    color: #302F2D;
+}
+.text-header{
+  display:block;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 50px;
+  margin: 53px 0px 37px;
+}
+.page-select{
+  float:right;
+}

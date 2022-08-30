@@ -1,0 +1,168 @@
+
+.select-block{
+    width:1440px;
+    height:900px;
+    border:1px solid #e6e6e6;
+    float:right;
+}
+.select__header{
+    margin:42px 0px 54px 65px;
+}
+.text{
+    font-size:30px;
+    line-height:35px;
+    font-weight:400;
+    color: #302F2D;
+}
+.subtext{
+    font-size:20px;
+    line-height:25px;
+    font-weight: 400;
+    color: #302F2D;
+}
+.select__sub{
+    margin:54px 0 0 65px;
+}
+.input__label{
+    margin:54px 0 0 65px;
+    display:block;
+}
+
+.input{
+    width:960px;
+    display:block;
+    height:50px;
+    background-color: #FAFAFA;
+    border: 1px solid #E6E6E6;
+
+}
+.select__sub{
+   
+        margin:54px 0 54px 65px;
+    }
+
+.select__input{
+    margin:24px 0px 52px 65px;
+}
+.choose__button{
+    border:none;
+    font-size:25px;
+    font-weight: 400;
+    border-radius: 50%;
+    width:40px;
+    height:40px;
+    color:#999999;
+    text-align: center;
+    padding:auto;
+    background-color: #fff;
+    border:1px solid #999999;
+    cursor:pointer;
+}
+.button__wrapper{
+    display:flex;
+    align-items: center;
+    margin:60px 0px 54px 65px;
+    width:166px;
+    height:40px;
+    gap:20px;
+}
+ul{
+    list-style: none;
+}
+.list{
+    width:100%;
+
+}
+.menu__button {
+height:50px;
+border:none;
+font-size:17px;
+font-weight:500;
+padding:15px 20px;
+color: #302F2D;
+background-color: #fff;
+display:inline-block;
+cursor: pointer;
+width:100%;
+text-align: left;
+}
+.white-hover:hover{
+    background-color: #e6e6e6;
+}
+
+.menu-popup{
+    width:280px;
+    position:absolute;
+    top:581px;
+    left:555px;
+}
+.select-category{
+    width: 100%;
+    display:flex;
+}
+.select__arrow{
+
+    float:right;
+}
+.back__arrow{
+ margin-right: 10px;
+ float:left;
+ color: #999999;
+}
+.disabled{
+    display:none;
+}
+.selected-line{
+    background-color: #FAFAFA;
+    border-radius: 20px;
+    margin:0px 0px 10px 65px;
+    width:fit-content;
+    height:40px;
+    display: flex;
+    align-items: center;
+}
+.selected-category{
+    margin: 0px 20px;
+}
+.delete-button{
+    border:solid 1px #999999;
+    border-radius:50%;
+    background-color: #fff;
+    font-size: 10px;
+    width:20px;
+    height:20px;
+}
+.select-delete-button{
+margin: 10px 15px 10px 10px;
+}
+.backward__button{
+    color: #999999;
+
+
+}
+.list{
+    border: 1px solid #E6E6E6;
+border-radius: 5px;
+}
+.button{
+    width: 319px;
+height: 60px;
+
+/* red · E65639 */
+background: #E65639;
+padding: 22px 40px 20px;
+font-weight: 400;
+font-size: 16px;
+line-height: 18px;
+text-align: center;
+letter-spacing: 1px;
+text-transform: uppercase;
+border:none;
+cursor: pointer;
+
+color: #FFFFFF;
+
+}
+.select__submit{
+    margin:105px 0 120px 65px ;
+}

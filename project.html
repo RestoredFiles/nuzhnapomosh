@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+   
+    <script src="/project.js"></script>
+<link rel="import" href="/Header/header.html">
+<link rel="import" href="/panel/panel.html">
+<link rel="import" href="/Select-block/select-block.html">
+<link rel="stylesheet" href="/project.css">
+    <title>Создание сбора</title>
+</head>
+<body>
+    <header class="page-header">
+        <img class="logo header__logo" src="/Header/logo/logo.png">
+        <div class="user header__user">
+        <div class="user__avatar"></div>
+        <p class="user__name">Екатерина</p>
+        </div>
+    </header>
+    <div class="panel page__panel">
+        <div class="button__wrap">
+        <div class="button__icon"><div class="icon__circle"></div><div class="icon__circle"></div><div class="icon__circle"></div><div class="icon__circle"></div></div><button class="panel__button"> Панель управления</button></div>
+    </div>
+    <div class="page-select">
+        <h2 class="text-header">Создание сбора</h2>
+
+    <div class="select-block">
+        <div class="header select__header text">Информация о сборе</div>
+        <label for="input" class=" label input__label subtext">Название сбора</label>
+        <input class="input select__input" type="text" name="name" id="input">
+        <div class="header select__header text">Целевые группы</div>
+        <div class="sub select__sub subtext">Укажите кому помогает ваша организация</div>
+        <div class="menu-popup select-popup disabled"></div>
+        <div class="button__wrapper">
+        <button id="create" class="choose__button">+</button>
+        <label for="create" class= "button__label subtext">Выбрать</label>
+        </div>
+        
+        
+        <button class="button select__submit">Сохранить и Продолжить</button>
+        </div>
+    </div>
+</body>
+<script src="/Select-block/select-block.js"></script>
+</html>
