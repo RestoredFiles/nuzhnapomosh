@@ -28,6 +28,8 @@
     font-family: "Futura PT Book";
     color: #302F2D;
 }
+body{
+    width:1920px;
 .text-header{
   display:block;
   font-weight: 400;
